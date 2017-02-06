@@ -30,7 +30,49 @@ console.log('About component');
           "div",
           { className: "page" },
           React.createElement(MR.HeaderComponent, null),
-          React.createElement("div", { className: "container" })
+          React.createElement(
+            "div",
+            { className: "container" },
+            React.createElement(
+              "h1",
+              null,
+              " About LAURA"
+            ),
+            React.createElement(
+              "ul",
+              null,
+              React.createElement(
+                "li",
+                null,
+                "Uses: "
+              ),
+              React.createElement(
+                "p",
+                null,
+                "Users can record themselves in their Native Language and compare it to the language they wish to learn. The users can then down load their recordings and share them with other learners or language mentors"
+              ),
+              React.createElement(
+                "li",
+                null,
+                "Features:"
+              ),
+              React.createElement(
+                "p",
+                null,
+                "LAURA uses accessible features such as alt tags and captions to ensure all users have means to communicate."
+              ),
+              React.createElement(
+                "li",
+                null,
+                "Inspiration:"
+              ),
+              React.createElement(
+                "p",
+                null,
+                "Inspired by a local Sign Language Interpreter and her desire to advance her skill through accessible language."
+              )
+            )
+          )
         );
       }
     }]);

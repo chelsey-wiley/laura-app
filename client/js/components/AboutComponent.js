@@ -5,15 +5,24 @@ console.log ('About component');
 class AboutComponent extends React.Component {
   render() {
 
-    return <div className="page">
+    return (<div className="page">
 
       <MR.HeaderComponent/>
       <div className="container">
-      
+        <h1> About LAURA</h1>
+        <ul>
+          <li>Uses: </li>
+            <p>Users can record themselves in their Native Language and compare it to the language they wish to learn. The users can then down load their recordings and share them with other learners or language mentors</p>
+          <li>Features:</li>
+            <p>LAURA uses accessible features such as alt tags and captions to ensure all users have means to communicate.</p>
+          <li>Inspiration:</li>
+            <p>Inspired by a local Sign Language Interpreter and her desire to advance her skill through accessible language.</p>
+        </ul>
       </div>
 
 
-    </div>
+
+    </div>)
   }
 }
   MR.AboutComponent = AboutComponent;
