@@ -59,7 +59,7 @@ console.log('About component');
               React.createElement(
                 "p",
                 null,
-                "LAURA uses accessible features such as alt tags and captions to ensure all users have means to communicate."
+                "LAURA uses accessible features ensure all users have means to communicate. LAURA also emphasizes the importance of self-analysis to truly understand your own communication needs."
               ),
               React.createElement(
                 "li",

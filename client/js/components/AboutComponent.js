@@ -14,7 +14,7 @@ class AboutComponent extends React.Component {
           <li>Uses: </li>
             <p>Users can record themselves in their Native Language and compare it to the language they wish to learn. The users can then down load their recordings and share them with other learners or language mentors</p>
           <li>Features:</li>
-            <p>LAURA uses accessible features such as alt tags and captions to ensure all users have means to communicate.</p>
+            <p>LAURA uses accessible features ensure all users have means to communicate. LAURA also emphasizes the importance of self-analysis to truly understand your own communication needs.</p>
           <li>Inspiration:</li>
             <p>Inspired by a local Sign Language Interpreter and her desire to advance her skill through accessible language.</p>
           <li>Code:</li>
