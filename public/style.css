@@ -109,6 +109,14 @@ header {
   text-align: center;
   font-size: 2em; }
 
+.home-about {
+  text-align: center;
+  font-size: 2em;
+  color: #545454;
+  position: fixed;
+  bottom: 20px;
+  right: 20px; }
+
 body {
   background-image: url("/images/bg-content.jpg"); }
 

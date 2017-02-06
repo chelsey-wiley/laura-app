@@ -10,10 +10,12 @@ class HomeComponent extends React.Component {
       <div className="button-to-ASL"><ReactRouter.Link to={'/SignLanguageRecordingComponent'}>Sign Language</ReactRouter.Link></div>
       <div className="button-to-English"><ReactRouter.Link to={'/EnglishRecordingComponent'}>English</ReactRouter.Link></div>
       </header>
+
       <div className="container">
 
       <h1 className="home-header">Hi. I'm LAURA.</h1>
-      <p className="home-paragraph">Linguistically Aware Users Record Accessibly</p>
+      <p className="home-paragraph"> Linguistically Aware Users Record Accessibly</p>
+      <p className="home-about"> <ReactRouter.Link to={'/AboutComponent'}>Get to know me</ReactRouter.Link></p>
       </div>
     </div>;
   }

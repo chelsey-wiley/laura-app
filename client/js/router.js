@@ -15,6 +15,7 @@ if (window.MR === undefined) {window.FC = {};}
       <Route path="/YoutubeComponent" component={MR.YoutubeComponent}/>
       <Route path="/EnglishComponent" component={MR.EnglishComponent}/>
       <Route path="/EnglishRecordingComponent" component={MR.EnglishRecordingComponent}/>
+      <Route path="/AboutComponent" component={MR.About}/>
     </Router>;
 
   ReactDOM.render(router, mountNode);
