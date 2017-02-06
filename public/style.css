@@ -57,44 +57,38 @@ header {
   height: 100px; }
 
 .button-to-ASL {
-  background-color: darkgray;
-  border-top: 1px solid #545454;
-  border-left: 1px solid #545454;
-  border-bottom: 3px solid #545454;
-  border-right: 3px solid #545454;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 15px;
   font-family: "Raleway", sans-serif;
-  font-size: 1em;
-  width: 150px;
-  text-align: center;
-  color: #efefef;
+  padding: 15px;
+  margin: 15px;
+  font-size: 2em;
+  color: #545454;
   float: left; }
 
-.button-to-ASL:hover {
-  border-bottom: 1px solid #545454;
-  border-right: 1px solid #545454; }
-
 .button-to-English {
-  background-color: darkgray;
-  border-top: 1px solid #545454;
-  border-left: 1px solid #545454;
-  border-bottom: 3px solid #545454;
-  border-right: 3px solid #545454;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 15px;
   font-family: "Raleway", sans-serif;
-  font-size: 1em;
-  width: 150px;
-  text-align: center;
-  color: #efefef;
+  padding: 15px;
+  margin: 15px;
+  font-size: 2em;
+  color: #545454;
   float: right; }
 
+.button-to-home {
+  font-family: "Raleway", sans-serif;
+  padding: 15px;
+  margin: 15px;
+  font-size: 2em;
+  color: #545454;
+  float: right;
+  margin-right: 33%; }
+
+.button-to-home:hover {
+  color: #ff383e; }
+
+.button-to-ASL:hover {
+  color: #ff383e; }
+
 .button-to-English:hover {
-  border-bottom: 1px solid #545454;
-  border-right: 1px solid #545454; }
+  color: #ff383e; }
 
 .home-header {
   margin-top: 20px;
@@ -116,6 +110,9 @@ header {
   position: fixed;
   bottom: 20px;
   right: 20px; }
+
+.home-about:hover {
+  color: #ff383e; }
 
 body {
   background-image: url("/images/bg-content.jpg"); }

@@ -11,7 +11,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 if (window.MR === undefined) {
   window.MR = {};
 }
-console.log('English component');
+console.log('About component');
 (function () {
   var AboutComponent = function (_React$Component) {
     _inherits(AboutComponent, _React$Component);
@@ -28,12 +28,9 @@ console.log('English component');
 
         return React.createElement(
           "div",
-          { className: "container" },
-          React.createElement(
-            "h1",
-            null,
-            "LAURA"
-          )
+          { className: "page" },
+          React.createElement(MR.HeaderComponent, null),
+          React.createElement("div", { className: "container" })
         );
       }
     }]);
@@ -1047,7 +1044,7 @@ if (window.MR === undefined) {
 'use strict';
 
 if (window.MR === undefined) {
-  window.FC = {};
+  window.MR = {};
 }
 
 (function () {
@@ -1067,7 +1064,7 @@ if (window.MR === undefined) {
     React.createElement(Route, { path: '/YoutubeComponent', component: MR.YoutubeComponent }),
     React.createElement(Route, { path: '/EnglishComponent', component: MR.EnglishComponent }),
     React.createElement(Route, { path: '/EnglishRecordingComponent', component: MR.EnglishRecordingComponent }),
-    React.createElement(Route, { path: '/AboutComponent', component: MR.About })
+    React.createElement(Route, { path: '/AboutComponent', component: MR.AboutComponent })
   );
 
   ReactDOM.render(router, mountNode);

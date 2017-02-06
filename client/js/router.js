@@ -1,4 +1,4 @@
-if (window.MR === undefined) {window.FC = {};}
+if (window.MR === undefined) {window.MR = {};}
 
 (function() {
   console.log('routerjs');
@@ -15,7 +15,7 @@ if (window.MR === undefined) {window.FC = {};}
       <Route path="/YoutubeComponent" component={MR.YoutubeComponent}/>
       <Route path="/EnglishComponent" component={MR.EnglishComponent}/>
       <Route path="/EnglishRecordingComponent" component={MR.EnglishRecordingComponent}/>
-      <Route path="/AboutComponent" component={MR.About}/>
+      <Route path="/AboutComponent" component={MR.AboutComponent}/>
     </Router>;
 
   ReactDOM.render(router, mountNode);

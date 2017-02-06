@@ -6,22 +6,29 @@ header{
 }
 
 .button-to-ASL{
-  @include theButton;
+  @include headerText;
   float: left;
 };
 
-.button-to-ASL:hover{
-  border-bottom: 1px solid $slate;
-  border-right:1px solid $slate;
-}
-
 .button-to-English{
-  @include theButton;
+  @include headerText;
     float: right;
 };
 
-.button-to-English:hover{
-  border-bottom: 1px solid $slate;
-  border-right:1px solid $slate;
+.button-to-home{
+@include  headerText;
+  float: right;
+  margin-right: 33%;
+};
 
+.button-to-home:hover{
+  color:$watermelon;
 }
+
+.button-to-ASL:hover{
+  color:$watermelon;
+};
+
+.button-to-English:hover{
+    color:$watermelon;
+};
