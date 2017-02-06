@@ -102,7 +102,8 @@ if (window.MR === undefined) {window.MR = {};}
         <MR.HeaderComponent/>
         <div className="container">
           <h1>English Recording</h1>
-          <p>This will have no video</p>
+          <p>English is spoken an written. It has many nuances that make it a challenge to learn.</p>
+          <p>*This will have no video</p>
           <div className="recorder-container">
             <video id="video" controls autoPlay></video>
             <div className="video-buttons">

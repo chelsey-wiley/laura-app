@@ -77,10 +77,10 @@ if (window.MR === undefined) {window.MR = {};}
         return <div className="youtube-container">
           <iframe name= "iframeName" className="iframeName"></iframe>
           <div className="search-bar">
-              <input placeholder ="search" onKeyUp={(evt) => {this.keyUp(evt); }} ref={(theDomElement) => {this.theInput = theDomElement;}}/>
-              <button onClick={() => {this.clicky();}}>enter</button>
-              <button onClick={() => {this.pageUp();}}>next</button>
-              <button onClick={() => {this.pageDown();}}>previous</button>
+              <input className="youtube-search" placeholder ="search" onKeyUp={(evt) => {this.keyUp(evt); }} ref={(theDomElement) => {this.theInput = theDomElement;}}/>
+              <button onClick={() => {this.clicky();}}>Enter</button>
+              <button onClick={() => {this.pageUp();}}>Next</button>
+              <button onClick={() => {this.pageDown();}}>Previous</button>
           </div>
 
 

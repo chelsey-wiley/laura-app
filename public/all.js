@@ -70,6 +70,22 @@ console.log('About component');
                 "p",
                 null,
                 "Inspired by a local Sign Language Interpreter and her desire to advance her skill through accessible language."
+              ),
+              React.createElement(
+                "li",
+                null,
+                "Code:"
+              ),
+              React.createElement(
+                "p",
+                { className: "code-paragraph" },
+                "The code for Laura can be found on ",
+                React.createElement(
+                  "a",
+                  { href: "https://github.com/chelsey-wiley/laura-app", target: "_blank" },
+                  "GitHub"
+                ),
+                "."
               )
             )
           )
@@ -270,7 +286,12 @@ if (window.MR === undefined) {
             React.createElement(
               "p",
               null,
-              "This will have no video"
+              "English is spoken an written. It has many nuances that make it a challenge to learn."
+            ),
+            React.createElement(
+              "p",
+              null,
+              "*This will have no video"
             ),
             React.createElement(
               "div",
@@ -865,7 +886,12 @@ if (window.MR === undefined) {
             React.createElement(
               "p",
               null,
-              "This will have no audio"
+              "American Sign Language has no written form, making it unique among languages."
+            ),
+            React.createElement(
+              "p",
+              null,
+              "*This will have no audio"
             ),
             React.createElement(
               "div",
@@ -1026,7 +1052,7 @@ if (window.MR === undefined) {
           React.createElement(
             'div',
             { className: 'search-bar' },
-            React.createElement('input', { placeholder: 'search', onKeyUp: function onKeyUp(evt) {
+            React.createElement('input', { className: 'youtube-search', placeholder: 'search', onKeyUp: function onKeyUp(evt) {
                 _this3.keyUp(evt);
               }, ref: function ref(theDomElement) {
                 _this3.theInput = theDomElement;
@@ -1036,21 +1062,21 @@ if (window.MR === undefined) {
               { onClick: function onClick() {
                   _this3.clicky();
                 } },
-              'enter'
+              'Enter'
             ),
             React.createElement(
               'button',
               { onClick: function onClick() {
                   _this3.pageUp();
                 } },
-              'next'
+              'Next'
             ),
             React.createElement(
               'button',
               { onClick: function onClick() {
                   _this3.pageDown();
                 } },
-              'previous'
+              'Previous'
             )
           ),
           React.createElement(

@@ -102,7 +102,8 @@ if (window.MR === undefined) {window.MR = {};}
         <MR.HeaderComponent/>
         <div className="container">
         <h1>Sign Language Recording</h1>
-        <p>This will have no audio</p>
+        <p>American Sign Language has no written form, making it unique among languages.</p>
+        <p>*This will have no audio</p>
           <div className="recorder-container">
             <video id="video" controls autoPlay></video>
             <div className="video-buttons">

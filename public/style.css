@@ -118,14 +118,25 @@ body {
   background-image: url("/images/bg-content.jpg"); }
 
 h1 {
+  margin-top: 15px;
   font-family: "Khand", sans-serif;
   font-size: 3em;
-  padding: 10px; }
+  padding: 10px;
+  text-shadow: 2px 2px 5px darkgray; }
 
 p {
   font-family: "Raleway", sans-serif;
-  font-size: 1em;
-  padding: 10px; }
+  font-size: 1.2em;
+  line-height: 1.2em;
+  padding: 10px;
+  color: #545454; }
+
+li {
+  font-family: "Khand", sans-serif;
+  color: black;
+  font-size: 2.2em;
+  text-shadow: 2px 2px 5px darkgray;
+  line-height: 2.2em; }
 
 .container {
   margin: 0 auto;
@@ -149,7 +160,23 @@ video {
   height: 200px;
   background-color: #efefef;
   font-family: "Raleway", sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+  color: darkgray; }
+
+button {
+  background-color: darkgray;
+  border-top: 1px solid #545454;
+  border-left: 1px solid #545454;
+  border-bottom: 3px solid #545454;
+  border-right: 3px solid #545454;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  font-family: "Raleway", sans-serif;
+  font-size: .7em;
+  width: 80px;
+  text-align: center;
+  color: #efefef; }
 
 .youtube-container {
   float: right;
@@ -168,5 +195,16 @@ video {
 .results {
   background-color: yellow;
   width: 100%; }
+
+input {
+  background-color: #efefef;
+  font-family: "Raleway", sans-serif;
+  font-size: 1em; }
+
+.code-paragraph a {
+  color: #ff383e; }
+
+.code-paragraph a:hover {
+  color: darkgray; }
 
 /*# sourceMappingURL=style.css.map */

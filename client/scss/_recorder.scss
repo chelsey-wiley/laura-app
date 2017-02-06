@@ -23,4 +23,9 @@ video {
   background-color: $neutral;
   font-family: $bodyfont;
   font-size: 1em;
+  color:$carbon;
 }
+
+button{
+  @include theButton
+};

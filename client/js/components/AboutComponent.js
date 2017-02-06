@@ -17,6 +17,8 @@ class AboutComponent extends React.Component {
             <p>LAURA uses accessible features such as alt tags and captions to ensure all users have means to communicate.</p>
           <li>Inspiration:</li>
             <p>Inspired by a local Sign Language Interpreter and her desire to advance her skill through accessible language.</p>
+          <li>Code:</li>
+            <p className="code-paragraph">The code for Laura can be found on <a href="https://github.com/chelsey-wiley/laura-app" target="_blank">GitHub</a>.</p>
         </ul>
       </div>
 
