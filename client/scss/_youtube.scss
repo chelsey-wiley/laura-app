@@ -15,10 +15,30 @@
 };
 
 .results {
-  background-color: yellow;
-  width: 100%;
+  background-color: $carbonOp;
+  max-width: 100%;
+  border-radius: 20px;
 };
 
+.results li{
+  font-family: $headerfont;
+  color: black;
+  font-size: 2.2em;
+  text-shadow: 2px 2px 5px $carbon;
+  line-height: 2.2em;
+}
+
+.results p{
+  font-family: $bodyfont;
+  font-size: .5em;
+  line-height: 1.2em;
+  padding: 20px;
+  color: $slate;
+}
+.results a:hover{
+  color:$watermelon;
+
+}
 input{
   background-color: $neutral;
   font-family: $bodyfont;

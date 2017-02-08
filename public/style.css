@@ -135,8 +135,7 @@ li {
   font-family: "Khand", sans-serif;
   color: black;
   font-size: 2.2em;
-  text-shadow: 2px 2px 5px darkgray;
-  line-height: 2.2em; }
+  text-shadow: 2px 2px 5px darkgray; }
 
 .container {
   margin: 0 auto;
@@ -193,8 +192,26 @@ button {
   margin: 25px; }
 
 .results {
-  background-color: yellow;
-  width: 100%; }
+  background-color: rgba(169, 169, 169, 0.3);
+  max-width: 100%;
+  border-radius: 20px; }
+
+.results li {
+  font-family: "Khand", sans-serif;
+  color: black;
+  font-size: 2.2em;
+  text-shadow: 2px 2px 5px darkgray;
+  line-height: 2.2em; }
+
+.results p {
+  font-family: "Raleway", sans-serif;
+  font-size: .5em;
+  line-height: 1.2em;
+  padding: 20px;
+  color: #545454; }
+
+.results a:hover {
+  color: #ff383e; }
 
 input {
   background-color: #efefef;
