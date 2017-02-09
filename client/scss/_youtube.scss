@@ -44,3 +44,17 @@ input{
   font-family: $bodyfont;
   font-size: 1em;
 }
+
+@media (max-width: 1190px){
+
+  .youtube-container{
+    margin: 0 auto;
+    float: none;
+    max-width: 100%;
+  };
+
+ .iframeName{
+    margin: 0px;
+  }
+
+}

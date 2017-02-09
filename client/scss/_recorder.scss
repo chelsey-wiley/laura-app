@@ -29,3 +29,11 @@ video {
 button{
   @include theButton
 };
+
+@media (max-width: 1190px){
+  .recorder-container{
+    margin: 0 auto;
+    float: none;
+    max-width: 100%;
+  };
+}

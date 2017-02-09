@@ -86,6 +86,16 @@ console.log('About component');
                   "GitHub"
                 ),
                 "."
+              ),
+              React.createElement(
+                "li",
+                null,
+                "Directions:"
+              ),
+              React.createElement(
+                "p",
+                null,
+                "Click on the language you wish to practice. Check to confirm that your browswer is compatable by clicking support. Begin recording. When finished click stop. You may play back your sample or download it to your computer."
               )
             )
           )
@@ -335,11 +345,7 @@ if (window.MR === undefined) {
                     } },
                   "Download"
                 ),
-                React.createElement(
-                  "textarea",
-                  { className: "textarea" },
-                  "Write English Here"
-                )
+                React.createElement("textarea", { className: "textarea", placeholder: "Write English Here" })
               )
             ),
             React.createElement(MR.YoutubeComponent, null)

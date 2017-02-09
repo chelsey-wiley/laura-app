@@ -177,6 +177,12 @@ button {
   text-align: center;
   color: #efefef; }
 
+@media (max-width: 1190px) {
+  .recorder-container {
+    margin: 0 auto;
+    float: none;
+    max-width: 100%; } }
+
 .youtube-container {
   float: right;
   padding: 20px;
@@ -217,6 +223,14 @@ input {
   background-color: #efefef;
   font-family: "Raleway", sans-serif;
   font-size: 1em; }
+
+@media (max-width: 1190px) {
+  .youtube-container {
+    margin: 0 auto;
+    float: none;
+    max-width: 100%; }
+  .iframeName {
+    margin: 0px; } }
 
 .code-paragraph a {
   color: #ff383e; }

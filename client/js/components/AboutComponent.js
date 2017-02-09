@@ -19,6 +19,8 @@ class AboutComponent extends React.Component {
             <p>Inspired by a local Sign Language Interpreter and her desire to advance her skill through accessible language.</p>
           <li>Code:</li>
             <p className="code-paragraph">The code for Laura can be found on <a href="https://github.com/chelsey-wiley/laura-app" target="_blank">GitHub</a>.</p>
+          <li>Directions:</li>
+            <p>Click on the language you wish to practice. Check to confirm that your browswer is compatable by clicking support. Begin recording. When finished click stop. You may play back your sample or download it to your computer.</p>
         </ul>
       </div>
 
