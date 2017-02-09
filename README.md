@@ -24,3 +24,5 @@ The YouTube component is called using the Google YouTube API. YouTube API has bu
 ##  Solutions:
 * Use headphones to prevent the feedback loop
 * English recording component textbox changed to placeholder.
+
+Currently Deployed at: https://languagerecorder.herokuapp.com/#/ 
